@@ -1,12 +1,13 @@
 {
-    "name": "drupal/recommended-project",
-    "description": "Project template for Drupal 8 projects with a relocated document root",
+    "name": "farmos/project",
+    "description": "farmOS project template.",
     "type": "project",
     "license": "GPL-2.0-or-later",
-    "homepage": "https://www.drupal.org/project/drupal",
+    "homepage": "https://farmOS.org",
     "support": {
-        "docs": "https://www.drupal.org/docs/user_guide/en/index.html",
-        "chat": "https://www.drupal.org/node/314178"
+        "docs": "https://farmOS.org/guide",
+        "forum": "https://farmOS.discourse.group",
+        "chat": "https://riot.im/app/#/room/#farmOS:matrix.org"
     },
     "repositories": [
         {
