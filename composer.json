@@ -9,6 +9,12 @@
         "forum": "https://farmOS.discourse.group",
         "chat": "https://riot.im/app/#/room/#farmOS:matrix.org"
     },
+    "authors": [
+        {
+            "name": "Michael Stenta",
+            "email": "mike@farmier.com"
+        }
+    ],
     "repositories": [
         {
             "type": "composer",
