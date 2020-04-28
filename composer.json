@@ -29,6 +29,7 @@
         "farmos/farmos": "2.x-dev"
     },
     "require-dev": {
+        "drupal/core-dev": "^9"
     },
     "conflict": {
         "drupal/drupal": "*"
