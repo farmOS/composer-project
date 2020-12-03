@@ -30,7 +30,11 @@
     },
     "require-dev": {
         "drupal/core-dev": "~9.1.0",
+        "phpspec/prophecy-phpunit": "^2",
         "zaporylie/composer-drupal-optimizations": "^1.1"
+    },
+    "_comments": {
+        "phpspec/prophecy-phpunit": "Required to fix ProphecyTrait not found, until Drupal core drops support for PHPUnit 8. See https://www.drupal.org/node/3176567"
     },
     "conflict": {
         "drupal/drupal": "*"
