@@ -56,7 +56,7 @@
             "web/core": ["type:drupal-core"],
             "web/profiles/farm": ["farmos/farmos"],
             "web/libraries/{$name}": ["type:drupal-library"],
-            "web/modules/contrib/{$name}": ["type:drupal-module"],
+            "web/modules/{$name}": ["type:drupal-module"],
             "web/themes/{$name}": ["type:drupal-theme"],
             "drush/Commands/contrib/{$name}": ["type:drupal-drush"]
         }
