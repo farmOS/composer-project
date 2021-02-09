@@ -66,6 +66,7 @@
             "web/core": ["type:drupal-core"],
             "web/profiles/farm": ["farmos/farmos"],
             "web/libraries/{$name}": ["type:drupal-library"],
+            "web/libraries/farmOS-map": ["npm-asset/farmos.org--farmos-map"],
             "web/modules/{$name}": ["type:drupal-module"],
             "web/themes/{$name}": ["type:drupal-theme"],
             "drush/Commands/contrib/{$name}": ["type:drupal-drush"]
