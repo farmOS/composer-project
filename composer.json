@@ -28,7 +28,6 @@
     "require": {
         "cweagans/composer-patches": "^1.7",
         "drupal/core-composer-scaffold": "~9.1.0",
-        "drush/drush": "^9.0||^10.0",
         "farmos/farmos": "2.x-dev",
         "oomphinc/composer-installers-extender": "^2"
     },
