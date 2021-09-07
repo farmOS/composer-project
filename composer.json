@@ -19,17 +19,14 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
-        },
-        {
-            "type": "composer",
-            "url": "https://asset-packagist.org"
         }
     ],
     "require": {
         "cweagans/composer-patches": "^1.7",
         "drupal/core-composer-scaffold": "~9.1.0",
         "farmos/farmos": "2.x-dev",
-        "oomphinc/composer-installers-extender": "^2"
+        "oomphinc/composer-installers-extender": "^2",
+        "wikimedia/composer-merge-plugin": "^2.0"
     },
     "require-dev": {
         "brianium/paratest": "^4",
@@ -55,12 +52,10 @@
             }
         },
         "enable-patching": true,
-        "installer-types": ["npm-asset"],
         "installer-paths": {
             "web/core": ["type:drupal-core"],
             "web/profiles/farm": ["farmos/farmos"],
             "web/libraries/{$name}": ["type:drupal-library"],
-            "web/libraries/farmOS-map": ["npm-asset/farmos.org--farmos-map"],
             "web/modules/{$name}": ["type:drupal-module"],
             "web/themes/{$name}": ["type:drupal-theme"],
             "drush/Commands/contrib/{$name}": ["type:drupal-drush"],
@@ -70,6 +65,11 @@
             "drupal/core": {
                 "Issue #3192365: Race Condition in 'public://simpletest' mkdir Call": "https://www.drupal.org/files/issues/2021-01-12/3192365-3.patch"
             }
+        },
+        "merge-plugin": {
+            "include": [
+                "web/profiles/farm/composer.libraries.json"
+            ]
         }
     }
 }
