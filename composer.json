@@ -58,8 +58,7 @@
             "web/libraries/{$name}": ["type:drupal-library"],
             "web/modules/{$name}": ["type:drupal-module"],
             "web/themes/{$name}": ["type:drupal-theme"],
-            "drush/Commands/contrib/{$name}": ["type:drupal-drush"],
-            "vendor/npm-asset/{$name}": ["type:npm-asset"]
+            "drush/Commands/contrib/{$name}": ["type:drupal-drush"]
         },
         "patches": {
             "drupal/core": {
