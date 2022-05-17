@@ -24,8 +24,6 @@
         "oomphinc/composer-installers-extender": "^2.0",
         "wikimedia/composer-merge-plugin": "^2.0"
     },
-    "minimum-stability": "dev",
-    "prefer-stable": true,
     "_comments": {
         "drupal/entity_reference_validators": "Required here until a stable release is available. See https://www.drupal.org/project/farm/issues/3207255",
         "drupal/gin": "Required here until a stable release is available. See https://www.drupal.org/project/farm/issues/3207255",
