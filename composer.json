@@ -17,7 +17,7 @@
     ],
     "require": {
         "farmos/farmos": "^2",
-        "drupal/entity_reference_validators": "@alpha",
+        "drupal/entity_reference_validators": "@beta",
         "drupal/gin": "@beta",
         "drupal/gin_toolbar": "@beta",
         "drupal/inline_entity_form": "@RC",
