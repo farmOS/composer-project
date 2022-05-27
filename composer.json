@@ -32,7 +32,7 @@
             "drush/Commands/contrib/{$name}": ["type:drupal-drush"]
         },
         "merge-plugin": {
-            "include": [
+            "require": [
                 "web/profiles/farm/composer.libraries.json",
                 "web/profiles/farm/composer.project.json"
             ],
