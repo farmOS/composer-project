@@ -16,7 +16,7 @@
         }
     ],
     "require": {
-        "farmos/farmos": "^2.0",
+        "farmos/farmos": "3.x-dev",
         "oomphinc/composer-installers-extender": "^2.0",
         "wikimedia/composer-merge-plugin": "^2.0"
     },
