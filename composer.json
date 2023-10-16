@@ -39,5 +39,16 @@
             "merge-extra": true,
             "merge-extra-deep": true
         }
+    },
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true,
+            "cweagans/composer-patches": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "drupal/core-composer-scaffold": true,
+            "oomphinc/composer-installers-extender": true,
+            "phpstan/extension-installer": true,
+            "wikimedia/composer-merge-plugin": true
+        }
     }
 }
